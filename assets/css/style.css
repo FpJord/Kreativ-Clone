@@ -222,6 +222,12 @@ input::placeholder {
   margin-top: 5px;
 }
 
+
+label {
+  margin-bottom: 4px;
+}
+
+
 @media (max-width: 1082px) {
   .right {
     display: none;
@@ -232,6 +238,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+
   }
 
   .left {
@@ -262,9 +269,11 @@ input::placeholder {
 
   .left > header > h1 {
     margin-left: 0px;
+    margin-right: 50px;
   }
 
   .left > header > div {
     opacity: 1;
   }
 }
+

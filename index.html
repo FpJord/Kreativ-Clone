@@ -26,17 +26,17 @@
 
                 <form>
                     <label for="name">Full name</label>
-                    <input type="text" placeholder="Ade Tiger">
+                    <input type="text" placeholder="Ade Tiger" required>
 
                     <label for="email">Email address</label>
-                    <input type="email" placeholder="yourname@gmail.com">
+                    <input type="email" placeholder="yourname@gmail.com" required>
 
                     <label for="tel" name="phone">Phone number</label>
-                    <input type="tel" id="phone" placeholder="800 2738 9700">
+                    <input type="tel" id="phone" placeholder="800 2738 9700" required>
 
                     <div class="senha">
                         <label for="password" id="password" >Create password</label>
-                        <input type="password" id="senha"  placeholder=" ● ● ● ● ● ● ● ●" oninput="validate()">
+                        <input type="password" id="senha"  placeholder=" ● ● ● ● ● ● ● ●" required oninput="validate()">
                         <i class="bi bi-eye" id="btn-senha" onclick="revealPassword()"></i>
 
                         <span id="minimum-characters">Password must contain a minimum of 8 characters</span> <br>
@@ -44,7 +44,7 @@
                     </div>
 
                     <label for="local">Location <span>(Optional)</span></label>
-                    <input type="text" placeholder="Select Location">
+                    <input type="text" placeholder="Select Location" required>
 
                     <input type="submit" id="submit" value="Sign Up">
                 </form>

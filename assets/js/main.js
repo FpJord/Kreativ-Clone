@@ -26,6 +26,8 @@ function validate(){
         symbol.style.color='green'
     } else {
         symbol.style.color='red'
+
     }
+
 }
        
